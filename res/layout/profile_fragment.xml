@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="80dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Profile Photo: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+
+    	<ImageView
+    	    android:id="@+id/imageView"
+    	    android:layout_width="80dp"
+    	    android:layout_height="80dp"
+    	    android:background="@drawable/profile"
+    	    android:layout_marginLeft="70dp"/>
+
+	</LinearLayout>
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Full Name: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Yang Song"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="70dp"
+    	/>
+
+	</LinearLayout>
+	
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Gitizen ID: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="903089031"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="75dp"
+    	/>
+
+	</LinearLayout>
+	
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Gender: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Male"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="130dp"
+    	/>
+	</LinearLayout>
+	
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Region: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="USA, Atlanta"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="100dp"
+    	/>
+	</LinearLayout>
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="What's Up: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="I am happy!!"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="80dp"
+    	/>
+	</LinearLayout>
+		<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Facebook Account: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Not set"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="40dp"
+    	/>
+	</LinearLayout>
+		<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="LinkedIn Account: "
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Not set"
+    		android:textSize="20dp"
+    		android:paddingTop="8dp"
+    		android:textColor="#A3A3A3"
+    		android:layout_marginLeft="40dp"
+    	/>
+	</LinearLayout>    
+</LinearLayout>
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#808080</color>
+    <color name="font_gray">#333333</color>
+     <color name="white">#FFFFFFFF</color>
+     <color name="listitem_nowordertitle">#000000</color>
+     <color name="listitem_noworder">#E4393C</color>
+     <color name="listitem_outorder">#A8A8A8</color>
+     <color name="listitem_noworer_down">#5FE866</color>
+     <color name="listitem_item_bg">#F0F0F0</color>
+     <color name="griditem_item_bg">#F9BC01</color>
+     <color name="griditem_item_bg_down">#9DD809</color>
+     <color name="griditem_item_bg_up">#D8002F</color>
+     <color name="orderdistribute_griditem_title_noclick">#BBBBBB</color>
+     <color name="orderdistribute_griditem_title_click">#E4393C</color>
+     <color name="distribute_background_even">#F0F0F0</color>
+     <color name="distribute_background_odd">#FFFFFF</color>
+     <color name="distribute_item_today_red">#E54F52</color>
+     <color name="distribute_item_today_green">#58E751</color>
+     <color name="distribute_item_yesterday">#A8A8A8</color>
+     <color name="distribute_item_field">#040404</color>
+</resources>

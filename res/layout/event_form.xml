@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/loginForm"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Location: "
+	android:textSize="8pt"
+	android:layout_marginLeft="15dp"
+	/>
+
+<EditText
+    android:id="@+id/gtid"
+	android:layout_width="125dp"
+	android:layout_height="wrap_content"
+	android:selectAllOnFocus="true"
+	/>
+</TableRow>
+
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Number allowed: "
+	android:textSize="8pt"	
+	android:layout_marginLeft="15dp"
+	/>	
+<EditText
+    android:id="@+id/number_of_peo"
+	android:layout_width="125dp"
+	android:layout_height="wrap_content"
+	/>
+</TableRow>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Start Time: "
+	android:textSize="8pt"	
+	android:layout_marginLeft="15dp"
+	/>	
+<EditText
+    android:id="@+id/starttime"
+	android:layout_width="125dp"
+	android:layout_height="wrap_content"
+	/>
+</TableRow>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Description: "
+	android:textSize="8pt"	
+	android:layout_marginLeft="15dp"
+	/>
+<EditText
+    android:id="@+id/desc"
+	android:layout_width="125dp"
+	android:layout_height="wrap_content"
+	/>
+</TableRow>
+</TableLayout>

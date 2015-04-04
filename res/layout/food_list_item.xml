@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+	    android:layout_marginTop="5dp"
+	    android:id="@+id/item_picture"
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp"
+	    android:background="@drawable/test1"
+	    android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+		/>
+    
+	<RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp" >
+    
+    	<TextView
+			android:id="@+id/item_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:text="Amelie's French Bakery"
+			android:textSize="18dip"
+			android:textStyle="bold"
+		/>
+    	<TextView
+			android:id="@+id/item_price"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:text="$123"
+			android:textSize="18dip"
+			android:textStyle="bold"
+			android:layout_alignParentRight="true"
+		/>
+	</RelativeLayout>
+    <RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"  >
+    
+    	<TextView
+			android:id="@+id/item_comment"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:text="Score: 4"
+			android:textSize="18dip"
+			android:textStyle="bold"
+		/>
+    	<TextView
+			android:id="@+id/item_location"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:text="Atlanta"
+			android:textSize="18dip"
+			android:textStyle="bold"
+			android:layout_alignParentRight="true"
+		/>
+	</RelativeLayout>
+</LinearLayout>

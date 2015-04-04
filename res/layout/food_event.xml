@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+    	android:layout_marginTop="10dp">
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Location:"
+    		android:textSize="20dp"
+    		android:layout_marginLeft="20dp"
+    	/>
+    	<EditText
+    	    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint="Location"
+    		android:selectAllOnFocus="true"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginRight="20dp"
+    		android:background="@drawable/bg_border"
+    	/>
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="10dp" >
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Time:"
+    		android:textSize="20dp"
+    		android:layout_marginLeft="23dp"
+    	/>
+    	<EditText
+    	    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint="Time"
+    		android:selectAllOnFocus="true"
+    		android:layout_marginLeft="40dp"
+    		android:layout_marginRight="20dp"
+    		android:background="@drawable/bg_border"
+    	/>
+	</LinearLayout>
+
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="10dp" >
+    	<Button
+    	    android:id="@+id/get"
+    	    android:layout_width="120dp"
+    		android:layout_height="40dp"
+    		android:layout_marginLeft="30dp"
+    		android:text="Find"
+    		android:background="@drawable/button_selector"
+    	/>
+    	<Button
+    	    android:id="@+id/post"
+    	    android:layout_width="120dp"
+    		android:layout_height="40dp"
+    		android:layout_marginLeft="20dp"
+    		android:text="Organize"
+    		android:background="@drawable/button_selector"
+    	/>
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="10dp"
+    	android:background="#F0BC2B" >
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Recommendation"
+    		android:textSize="20dp"
+    		android:layout_marginLeft="23dp"
+    	/>
+	</LinearLayout>
+	
+	<ListView
+	        android:id="@+id/food_list" 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+	</ListView>
+</LinearLayout>

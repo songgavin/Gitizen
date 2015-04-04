@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginlogo"
+      >
+	<LinearLayout 
+	    android:orientation="horizontal" 
+		android:id="@+id/linearLayout_focus" 
+		android:focusable="true" 
+		android:focusableInTouchMode="true" 
+		android:layout_width="0px" 
+		android:layout_height="0px"/>
+	
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+ 
+        <LinearLayout
+            android:id="@+id/main_login_layout"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp" 
+            android:orientation="vertical" > 
+            
+            
+            <TableLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="25dp"
+		        android:layout_gravity="center" > 
+		        <TableRow
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		             >
+		             <FrameLayout
+					 	android:layout_width="220dp"
+					 	android:layout_height="40dp"
+					    >
+					    <TextView
+			                android:layout_width="220dp"
+			                android:layout_height="40dp"
+			                android:singleLine="true" 
+			                android:maxLength="30"
+			                android:textColor="@color/font_gray"
+			                android:background="@drawable/input_name"
+			                android:nextFocusDown="@+id/login_edtPwd"     
+		                >
+            			</TextView>
+
+					    <EditText
+					        android:id="@+id/login_edtErpCode"
+					        android:layout_width="180dp"
+					        android:layout_height="40dp"
+					        android:layout_marginLeft="37dp"
+					        android:ems="10"
+					        android:maxLength="30"
+					        android:nextFocusDown="@+id/login_edtPwd"
+					        android:singleLine="true"
+					        android:background="@null"
+					        android:textColor="@color/font_gray" >
+					    </EditText>
+
+		            </FrameLayout>
+		           
+		        </TableRow> 
+		        <TableRow
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		             >
+		             <FrameLayout
+					 	android:layout_width="220dp"
+					 	android:layout_height="40dp"
+					    >
+					    <TextView
+			                android:layout_width="220dp"
+			                android:layout_height="40dp"
+			                android:singleLine="true" 
+			                android:maxLength="30"
+			                android:textColor="@color/font_gray"
+			                android:background="@drawable/input_psw"
+		                >
+            			</TextView>
+			            <EditText
+			                android:id="@+id/login_edtPwd"
+			                android:layout_width="180dp"
+			                android:layout_height="40dp"
+			                android:layout_marginLeft="37dp"
+			                android:background="@null"
+			                android:maxLength="30"
+			                android:password="true"
+			                android:singleLine="true"
+			                android:textColor="@color/font_gray" >
+			            </EditText>
+		             </FrameLayout>
+		        </TableRow>
+    		</TableLayout> 
+            
+
+            <LinearLayout
+                android:orientation="horizontal" 
+                android:id="@+id/login_remeber_me_layout" 
+                android:layout_marginTop="5dp" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                >
+                <ImageButton
+					android:id="@+id/login_remeber_me_ib"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+                    android:background="@drawable/login_remeber_me_check"/>
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+                    android:text="Remember Password"
+					android:layout_gravity="center_vertical"
+					android:textSize="16sp"
+					android:textColor="#fff"/>
+            </LinearLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/button_selector"
+                    android:text="Login"
+                    android:textSize="20sp"
+                    android:textColor="#989A9B" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
